@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Glowing Heading Styles */
+
+.pinkglow {
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15x;
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+               /* 0px 0px 20px rgba(255, 255, 255, 0.6),
+               0px 0px 30px rgba(255, 0, 150, 0.4); Pinkish glow */
+}
+
+.blueglow {
+  font-size: 28px;
+  color: #fff;
+  font-weight: semi-bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 8px rgba(173, 216, 230, 0.8);
+               /* 0px 0px 16px rgba(173, 216, 230, 0.6),
+               0px 0px 24px rgba(77, 130, 148, 0.4); Blueish glow */
+}
+
+.yellowglow {
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  text-align: central;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 5px rgba(255, 215, 0, 0.8),
+               0px 0px 10px rgba(255, 215, 0, 0.6),
+               0px 0px 15px rgba(255, 215, 0, 0.4); /* Goldish glow */
+}
+/* Neon-Style Glowing Heading Styles */
+
+.fullblueglow {
+  font-size: 40px;
+  color: #0ff; /* Bright cyan base color */
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  /* text-shadow: 0px 0px 5px rgb(54, 150, 150),
+               0px 0px 10px #0ff,
+               0px 0px 10px #0ff,
+               0px 0px 30px rgb(64, 107, 107),   
+             //  0px 0px 20px rgb(46, 70, 70); */
+}
+
+.fullpinkglow {
+  font-size: 30px;
+  color: #ff00ff; /* Magenta base color */
+  font-weight: 60;
+  text-align: center;
+  margin: 15px 0;
+  text-shadow: 0px 0px 5px #ff00ff,
+               0px 0px 10px #ff00ff,
+               0px 0px 20px #ff00ff,
+               0px 0px 30px #ff00ff, /* Intense pink glow */
+               0px 0px 60px #ff00ff;
+}
+
+.fullgreenglow {
+  font-size: 15px;
+  color: #00ff99; /* Vibrant mint green base color */
+  font-weight: normal;
+  text-align: center;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 3px #00ff99,
+               0px 0px 6px #00ff99,
+               /* 0px 0px 12px #00ff99,
+               0px 0px 24px #00ff99,  Bright green glow 
+               0px 0px 48px #00ff99; */
+}
+
+
+
+

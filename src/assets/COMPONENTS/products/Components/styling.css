@@ -1,0 +1,94 @@
+.glow-button {
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #007BFF, 0 0 15px #007BFF, 0 0 20px #007BFF, 0 0 40px #007BFF;
+    transition: 0.4s;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 20px #007BFF, 0 0 30px #007BFF, 0 0 40px #007BFF, 0 0 60px #007BFF;
+}
+.card {
+    height: 2cm;
+    text-align: 'left';
+    background-color: rgb(38, 47, 48);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.center{
+    align-items: center;
+}
+.purple-glow-button {
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #c95fdf;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #c95fdf, 0 0 5px #c95fdf;
+    transition: 0.4s;
+    /* 0 0 20px #c95fdf, 0 0 40px #c95fdf; */
+}
+
+.purple-glow-button:hover {
+    box-shadow: 0 0 20px #c95fdf, 0 0 30px #c95fdf;
+     /* 0 0 40px #c95fdf, 0 0 60px #c95fdf; */
+}
+.styled-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.styled-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.styled-button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    transform: scale(0.98); /* Slight shrink on click */
+}
+.gradient-button {
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to blue gradient */
+    border: none;
+    border-radius: 50px; /* Pill-shaped button */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+.gradient-button:hover {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.gradient-button:active {
+    transform: translateY(0px); /* Return to normal on click */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Softer shadow on click */
+}

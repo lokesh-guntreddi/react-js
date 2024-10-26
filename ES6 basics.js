@@ -1,3 +1,9 @@
+//logical AND && logical OR ||
+let z = true ;
+let y = true ;
+console.log(z && y);
+
+/*
 let name1='lokesh' ;
 let name2='guntreddi' ;
 console.log(name1+ " "+ name2) ;
@@ -44,4 +50,5 @@ const secondelement=array[1];
 console.log(firstelement,secondelement);
 //by destruring
 const [a1,a2,a3,a4] = array ;
-console.log(a1,a4)
+console.log(a1,a4);
+*/
